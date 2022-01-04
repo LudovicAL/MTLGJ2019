@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384133b18288f184fb3812d2a07f47a1, type: 3}
+  m_Name: KeyboardControlsK1
+  m_EditorClassIdentifier: 
+  controlsName: K1
+  up: 273
+  down: 274
+  left: 276
+  right: 275
+  click: 303
+  buttonA: 117
+  buttonB: 105
+  buttonX: 111
+  buttonY: 112
+  lBumper: 107
+  rBumper: 108
+  buttonStart: 110
+  buttonBack: 109

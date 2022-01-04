@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4715807134038827613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4715807134038827614}
+  - component: {fileID: 4715807134038827612}
+  - component: {fileID: 5414873498118895707}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4715807134038827614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715807134038827613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4715807134038827612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715807134038827613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776d276a59b4e1a489fafe85066e9925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  themeSongVolume: 0.5
+  listOfJumpClips:
+  - {fileID: 8300000, guid: 48b8c4afbfd2215449da5b9b132b4738, type: 3}
+  listOfSmallExplosionClips:
+  - {fileID: 8300000, guid: cabfae866cab347928b74b7d0ca6bfa9, type: 3}
+  - {fileID: 8300000, guid: 7e26c9daf4c32483b9c2790e662d3f1b, type: 3}
+  - {fileID: 8300000, guid: 7bef0064f8567430cac22499c6b93d4f, type: 3}
+  listOfBigExplosionClips:
+  - {fileID: 8300000, guid: 8e3b4236a7258471caabb3542eee992b, type: 3}
+  - {fileID: 8300000, guid: 7dafcb72466da454c9fd163893201499, type: 3}
+  listOfMaleDeathScreamClips:
+  - {fileID: 8300000, guid: f9d2f287451fd406e83ab195e4952a33, type: 3}
+  - {fileID: 8300000, guid: 81876106f5298413a9b4a94ccc2991c2, type: 3}
+  listOfFemaleDeathScreamClips:
+  - {fileID: 8300000, guid: 5596a238afea14837802464634956997, type: 3}
+  - {fileID: 8300000, guid: 532662fecf7f74a4aa7055b5cc6b3589, type: 3}
+  - {fileID: 8300000, guid: 2293a31ac348a4fd7a2c667054e58ecd, type: 3}
+  - {fileID: 8300000, guid: 4980583a65e884845bec00136cb38bfd, type: 3}
+  listOfPlayingThemeClips:
+  - {fileID: 8300000, guid: 7af7990ea64ba5b42ad338256dcabc6d, type: 3}
+  - {fileID: 8300000, guid: 7375cf4d81cd33b4ba836691e64303dd, type: 3}
+  - {fileID: 8300000, guid: fcec7648eb6f34447813ff2e201e9baf, type: 3}
+  menuThemeClip: {fileID: 8300000, guid: c9abac777fa1b43038b8e3c07101562d, type: 3}
+  menuClickClip: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+  ticTacClip: {fileID: 8300000, guid: c5e2a73ad4706440f93bf05df0b465fe, type: 3}
+  victoryClip: {fileID: 8300000, guid: 7478151cf36724a7dada558f746c3633, type: 3}
+  warningClip: {fileID: 8300000, guid: 130a177e727814a2ea78a886ab72213d, type: 3}
+  playerJoiningClip: {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
+  playerLeavingClip: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
+  itemGrabClip: {fileID: 8300000, guid: 0994c12e202f342459a4212e7287f7e8, type: 3}
+  crouchClip: {fileID: 8300000, guid: fe0b1f9aeb45b41b089175aeeabd5d95, type: 3}
+  weaponSwitch: {fileID: 8300000, guid: d8d04c6f80a1140db85ede568dab1f51, type: 3}
+  explosion1: {fileID: 8300000, guid: cabfae866cab347928b74b7d0ca6bfa9, type: 3}
+  explosion2: {fileID: 8300000, guid: 7e26c9daf4c32483b9c2790e662d3f1b, type: 3}
+  explosion3: {fileID: 8300000, guid: 7bef0064f8567430cac22499c6b93d4f, type: 3}
+  explosion4: {fileID: 8300000, guid: 8e3b4236a7258471caabb3542eee992b, type: 3}
+  explosion5: {fileID: 8300000, guid: 7dafcb72466da454c9fd163893201499, type: 3}
+--- !u!81 &5414873498118895707
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715807134038827613}
+  m_Enabled: 1
