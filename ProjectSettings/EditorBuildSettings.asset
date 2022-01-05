@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/Game.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/ChristopherBackup.unity
+    guid: 55577c04f23b5cd4a82aac208ba3533f
+  - enabled: 1
+    path: Assets/Scenes/Christopher.unity
+    guid: a7ac51fa35c18b14885a88f139217cd3
   m_configObjects: {}
